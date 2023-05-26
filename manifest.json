@@ -11,8 +11,6 @@
             "matches": ["<all_urls>"]
         }
     ],
-    "permissions": ["activeTab"],
-    "action": {
-        "default_popup": "popup.html"
-    }
+    "permissions": ["activeTab", "storage", "scripting"],
+    "options_page": "options.html"
 }
